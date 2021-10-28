@@ -4,7 +4,7 @@
 sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
 sudo rpm -ql epel-release
 sudo dnf repolist -v -y
-sudo dnf repository-packages epel list
+sudo dnf repository-packages epel list -y
 
 # RPMFUSION
 sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-8.noarch.rpm -y
